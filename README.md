@@ -39,7 +39,7 @@ he wants to see more of us will not be easy for him.
 | Delete / Edit users |
 | Admin / Unadmin users |
 
-The feature group features are additive as the admins are with the most abilities.
+The group features are additive as the admins are with the most abilities.
 
 # The Future
 In the current stage of the development is nothing more than proof of concept, as it has some bugs and the future is unclear.
