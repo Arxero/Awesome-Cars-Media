@@ -12,7 +12,7 @@ import { PostService } from '../../../core/services/posts.service';
 export class AllPostsComponent implements OnInit {
     //posts: Observable<PostModel[]>
     posts: PostModel[]
-    pageSize: number = 9
+    pageSize: number = 12
     currentPage: number = 1
 
     constructor(

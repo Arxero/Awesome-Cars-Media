@@ -4,9 +4,9 @@
 
         <b>Title</b>
         <input [(ngModel)]='model.title' #title='ngModel' type="text" placeholder="Enter Title" name="title" required minlength="3"
-            maxlength="50">
+            maxlength="30">
         <div [hidden]="title.valid || title.pristine" class="alert-danger">
-            Title must be at least 3 and less than 20 characters long.
+            Title must be at least 3 and less than 30 characters long.
         </div>
 
         <b>Image</b>

@@ -34,7 +34,7 @@
 
     <div>
         <form (ngSubmit)='createComment()' #createCommentForm='ngForm' class="comment-form">
-            <textarea [(ngModel)]='model.comment' #comment='ngModel' name="comment" placeholder="comment..." required></textarea>
+            <textarea [(ngModel)]='model.comment' #comment='ngModel' name="comment" placeholder="comment..." required maxlength="280"></textarea>
             <br>
             <button [disabled]='createCommentForm.form.invalid' type="submit">POST</button>
         </form>
