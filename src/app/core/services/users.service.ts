@@ -22,7 +22,7 @@ export class UsersService {
     }
 
     getUserById(id: string) {
-        return this.http.get(usersUrl + '/' + id)
+        return this.http.get<UserModel>(usersUrl + '/' + id)
     }
 
     edit(body: Object, id: string) {

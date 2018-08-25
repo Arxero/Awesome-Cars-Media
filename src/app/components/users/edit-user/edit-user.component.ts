@@ -12,7 +12,7 @@ import { AllPostsComponent } from '../../posts/all-posts/all-posts.component';
     styleUrls: ['./edit-user.component.css']
 })
 export class EditUserComponent implements OnInit {
-    model: Object = {}
+    model: UserModel
     selectedUsername: string = ''
 
     constructor(
@@ -20,7 +20,7 @@ export class EditUserComponent implements OnInit {
         private route: ActivatedRoute,
         private router: Router,
         private toastr: ToastrService) {
-        // this.model = new UserModel('', '', '', '', '')
+        this.model = new UserModel('', '', '', '', '', '')
     }
 
     ngOnInit() {
