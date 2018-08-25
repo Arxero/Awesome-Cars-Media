@@ -91,7 +91,8 @@ button:disabled {
     background-color: #111111;
     margin: 5% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 0px solid #278FE8;
-    width: 50%; /* Could be more or less, depending on screen size */
+    width: 500px;
+    max-width: 100%; /* Could be more or less, depending on screen size */
 }
 
 /* Style the horizontal ruler */
